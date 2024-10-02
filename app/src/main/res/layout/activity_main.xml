@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_destino" />
+
+    <RadioGroup
+        android:id="@+id/rgDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp">
+
+        <RadioButton
+            android:id="@+id/rDestino1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/str_destino1" />
+
+        <RadioButton
+            android:id="@+id/rDestino2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_destino2" />
+
+        <RadioButton
+            android:id="@+id/rDestino3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_destino3" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/str_trans" />
+
+    <RadioGroup
+        android:id="@+id/rgTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp">
+
+        <RadioButton
+            android:id="@+id/rTrans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/str_trans1" />
+
+        <RadioButton
+            android:id="@+id/rTrans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_trans2" />
+
+        <RadioButton
+            android:id="@+id/rTrans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_trans3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#2196F3"
+        android:padding="20dp"
+        android:text="@string/str_info"
+        android:textColor="#ffffff" />
+</LinearLayout>

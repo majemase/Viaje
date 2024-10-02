@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Viaje</string>
+    <string name="str_destino">Destino:</string>
+    <string name="str_destino1">Paris</string>
+    <string name="str_destino2">Londres</string>
+    <string name="str_destino3">Roma</string>
+    <string name="str_trans">Transporte</string>
+    <string name="str_trans1">Coche</string>
+    <string name="str_trans2">Tren</string>
+    <string name="str_trans3">Avion</string>
+    <string name="str_info">información</string>
+</resources>
